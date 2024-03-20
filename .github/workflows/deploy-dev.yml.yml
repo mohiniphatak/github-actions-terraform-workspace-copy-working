@@ -13,9 +13,9 @@ on:
 jobs:
   deploy:
     name: Deploy
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     env:
-      environment: somethingdev
+      environment: somethingdev12
 
     steps:
     - name: Checkout
