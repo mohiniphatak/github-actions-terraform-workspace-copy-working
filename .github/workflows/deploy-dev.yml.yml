@@ -15,7 +15,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     env:
-      environment: somethingdev12
+      environment: dev
 
     steps:
     - name: Checkout
